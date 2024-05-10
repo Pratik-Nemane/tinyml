@@ -1,0 +1,12 @@
+name: micropython-kernel
+channels:
+  - conda-forge
+dependencies:
+  # Build dependencies
+  - cmake
+  # Host dependencies
+  - python=3.9
+  - pip
+  - jupyter
+  - micropython_kernel
+
